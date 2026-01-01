@@ -1,0 +1,17 @@
+services:
+
+  mysql-service:
+    container_name: baobab-db
+    image:  mysql:8.0.35
+    networks:
+      - default
+    ports:
+      - 3322:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: baobab
+      MYSQL_USER: baobab
+      MYSQL_PASSWORD: baobab
+      TZ: Africa/Johannesburg
+
+      

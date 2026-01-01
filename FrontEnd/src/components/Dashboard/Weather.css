@@ -1,0 +1,145 @@
+.weather {
+  place-self: center;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #ffff;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  text-align: center;
+}
+
+.auth-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.warning-label {
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: #333;
+  background: #a7d4f0;
+  font-size: 16px;
+  width: 100%;
+}
+
+.search-bar input {
+  height: 45px;
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: #333;
+  background: #ebfffc;
+  font-size: 16px;
+  width: 100%;
+  border: 2px solid #7eeddd;
+  outline: none;
+  text-align: center;
+}
+
+.search-bar img {
+  width: 60px;
+  padding: 12px;
+
+
+  cursor: pointer;
+}
+
+.weather-icon {
+  width: 100px;
+  margin: 20px 0;
+}
+
+.tempreature {
+  color: #333;
+  font-size: 60px;
+  line-height: 1;
+}
+
+.location {
+  color: #555;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.weather-data {
+  width: 100%;
+  margin-top: 20px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-data .col {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.weather-data .col span {
+  display: block;
+  font-size: 14px;
+  color: #666;
+}
+
+.weather-data .col img {
+  width: 50px;
+
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100vw;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.proximity-box {
+
+  right: 40px;
+  /* Adjust to align with the right card */
+  top: 20px;
+  /* Adjust as needed to float above the card */
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  color: #195877;
+  font-weight: bold;
+}
+
+.proximity-box span {
+  font-size: 0.75rem;
+  color: #777;
+  display: block;
+  margin-top: 4px;
+}
+
+.proximity-box.locked {
+  background-color: #eee;
+  color: #999;
+  font-style: italic;
+}

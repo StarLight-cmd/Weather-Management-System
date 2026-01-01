@@ -1,0 +1,157 @@
+.subscriptions-container {
+  place-self: center;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.subscription-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subscription-input-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.subscription-input {
+  height: 45px;
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: #333;
+  background: #ebfffc;
+  font-size: 16px;
+  border: 2px solid #7eeddd;
+  text-align: center;
+}
+
+.subscription-button {
+  padding: 10px 20px;
+  background-color: #7eeddd;
+  color: #333;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subscription-button:hover {
+  background-color: #4bc5b3;
+}
+
+.subscription-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.back {
+  align-self: flex-start;
+  width: 50px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.subscription-card {
+  position: relative;
+  /* Needed for absolute positioning of child elements */
+  background-color: #ebfffc;
+  color: #333;
+  padding: 20px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.subscription-card-img {
+  background-color: #ffff;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.subscription-card-header {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.remove-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: red;
+  background-color: #ebfffc;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
+
+
+
+.subscription-card-info {
+  flex: 1;
+  text-align: left;
+}
+
+.subscription-card-info .info-local {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #333;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #333;
+}
+
+.subscription-card-status {
+  text-align: right;
+}
+
+.metric-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+}
+
+.subscription-card-info div,
+.subscription-card-status div {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 4px;
+}

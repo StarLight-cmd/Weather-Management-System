@@ -1,0 +1,203 @@
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.auth-container {
+  width: 550px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.weather-container {
+  background-color: #ffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+  width: 400px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+  margin-right: 55px;
+}
+
+.auth-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.auth-form h2 {
+  padding: 10px;
+  color: #4387d4;
+}
+
+.auth-form input,
+.auth-form button {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.weather-bg {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(-45deg, #83a4d4, #b6fbff, #dff1ff, #a1c4fd);
+  background-size: 400% 400%;
+  animation: skyShift 15s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes skyShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.auth-container {
+  background-color: #ffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.auth-form input,
+.auth-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.lock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.lock img {
+  width: 30px;
+  ;
+}
+
+.auth-form button {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-form input {
+  border: 2px solid #4a90e2;
+  outline: none;
+  text-align: center;
+}
+
+.auth-form button:hover {
+  background-color: #357ab8;
+}
+
+.register-button {
+  background-color: #eee;
+  color: #333;
+}
+
+.register-button:hover {
+  background-color: #ccc;
+}
+
+.warning-label {
+  margin-bottom: -10px;
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: #333;
+  background: #a7d4f0;
+  font-size: 16px;
+  width: 100%;
+}
+
+.forgot-password {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+
+
+.alert-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.alert-button:hover {
+  background-color: #0871e0;
+}
+
+.auth-container.highlight {
+  box-shadow: 0 0 20px 5px rgba(161, 196, 253, 0.8);
+  /* soft blue */
+  animation: pulseHighlight 2s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes pulseHighlight {
+  0% {
+    box-shadow: 0 0 0px rgba(55, 127, 243, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 20px 10px rgba(57, 125, 234, 0.8);
+  }
+
+  100% {
+    box-shadow: 0 0 0px rgba(68, 138, 251, 0.4);
+  }
+}
